@@ -2,7 +2,8 @@
   <div class="home">
     <b-card>
         <b-tabs card >
-            <b-tab title="Alert" active><Alert/></b-tab>
+            <b-tab title="Home" active><Home/></b-tab>  
+            <b-tab title="Alert" ><Alert/></b-tab>
             <b-tab title="Badge"><Badge/></b-tab>
             <b-tab title="Breadcrumb"><Breadcrumb/></b-tab>
             <b-tab title="Button Action"><ButtonAction/></b-tab> 
@@ -26,6 +27,9 @@
             <b-tab title="Toast"><Toast/></b-tab>
 
             <b-tab title="Utils"><Utils/></b-tab>  
+
+
+            
 
         </b-tabs>
     </b-card>
@@ -62,6 +66,8 @@ import Toast from '@/components/Toast.vue'
 
 import Utils from '@/components/Utils.vue'
 
+import Home from '@/components/Home.vue'
+
 
 export default {
   name: 'home',
@@ -84,7 +90,8 @@ export default {
     Table,
     Tabs,
     Toast,
-    Utils
+    Utils,
+    Home
 
   }
 }
